@@ -6,7 +6,7 @@
 import React from 'react';
 
 const Header: React.FC = () => {
-	return <header>Minor change</header>;
+	return <header>Header</header>;
 };
 
 export default Header;
