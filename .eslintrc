@@ -7,16 +7,12 @@
 		"jest/globals": true,
 		"node": true
 	},
-	"ignorePatterns": [
-		"prettier.config.js"
-	
-	],
 	"settings": { "react": { "version": "detect" } },
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"ecmaFeatures": { "jsx": true },
 		"ecmaVersion": 2021,
-		"project": "tsconfig.json",
+		"project": ["tsconfig.json", "tsconfig.node.json"],
 		"sourceType": "module"
 	},
 	"plugins": [
@@ -30,7 +26,6 @@
 		"jest",
 		"react",
 		"react-hooks",
-		"@tanstack/query",
 		"github"
 	],
 	"extends": [
