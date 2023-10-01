@@ -1,6 +1,45 @@
 #root {
-	max-width: 1280px;
 	margin: 0 auto;
-	padding: 2rem;
 	text-align: center;
+}
+
+.wave-div {
+	min-width: 100vw;
+	position: relative;
+	height: 300px;
+	background: var(--color-homepage-light);
+}
+
+.wave-div svg {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+}
+
+.wave-div svg path {
+	fill: var(--color-background);
+	transition: fill 350ms ease 0s;
+}
+
+.max-width-800px {
+	max-width: 800px;
+}
+
+.margin-auto {
+	margin: auto;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	padding: 40px 0;
+	min-width: 100%;
+	background: var(--color-homepage-light);
+	z-index: 10;
+}
+
+.header > div {
+	display: flex;
+	justify-content: space-between;
 }

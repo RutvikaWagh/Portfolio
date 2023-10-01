@@ -6,7 +6,7 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-	return <div>Footer</div>;
+	return <div className='max-width-800px margin-auto'>Footer</div>;
 };
 
 export default Footer;

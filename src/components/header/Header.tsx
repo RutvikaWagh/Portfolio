@@ -6,7 +6,14 @@
 import React from 'react';
 
 const Header: React.FC = () => {
-	return <header>Header</header>;
+	return (
+		<div className='header'>
+			<div className='margin-auto max-width-800px'>
+				<div>Left Content</div>
+				<div>Right Content</div>
+			</div>
+		</div>
+	);
 };
 
 export default Header;
