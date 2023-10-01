@@ -69,3 +69,6 @@
 	background: rgba(255, 255, 255, 0.256);
 	transition: 0.3s;
 }
+.main {
+	text-align: center;
+}

@@ -8,22 +8,18 @@ import React from 'react';
 const Main: React.FC = () => {
 	return (
 		<div className='max-width-900px margin-auto'>
-			MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMain MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain MainMainMainMain
-			MainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain MainMainMainMain
-			MainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain
-			MainMainMainMainMainMainMainMainMainMain MainMainMainMain
+			<div className='main'>
+				<h1>Hi, This is Rutvika Wagh</h1>
+				<p>
+					A Second year under graduate at Cummins College of Engineering for Women, Pune Studying Computer
+					Engineering
+				</p>
+				<div>
+					<a className='resume-button' href=''>
+						view Resume
+					</a>
+				</div>
+			</div>
 		</div>
 	);
 };
