@@ -5,12 +5,14 @@
 
 import React from 'react';
 
+import Navigation from './Navigation';
+
 const Header: React.FC = () => {
 	return (
 		<div className='header'>
-			<div className='margin-auto max-width-800px'>
+			<div className='margin-auto max-width-900px'>
 				<div>Left Content</div>
-				<div>Right Content</div>
+				<Navigation />
 			</div>
 		</div>
 	);

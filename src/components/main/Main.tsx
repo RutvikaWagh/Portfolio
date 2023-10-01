@@ -7,7 +7,7 @@ import React from 'react';
 
 const Main: React.FC = () => {
 	return (
-		<div className='max-width-800px margin-auto'>
+		<div className='max-width-900px margin-auto'>
 			MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
 			MainMainMainMain MainMainMainMainMainMain MainMainMainMain MainMainMainMainMainMain
 			MainMainMainMainMainMainMainMainMainMain MainMainMainMainMainMainMainMainMainMain

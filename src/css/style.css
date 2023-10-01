@@ -22,8 +22,8 @@
 	transition: fill 350ms ease 0s;
 }
 
-.max-width-800px {
-	max-width: 800px;
+.max-width-900px {
+	max-width: 900px;
 }
 
 .margin-auto {
@@ -33,7 +33,7 @@
 .header {
 	position: fixed;
 	top: 0;
-	padding: 40px 0;
+	padding: 35px 0;
 	min-width: 100%;
 	background: var(--color-homepage-light);
 	z-index: 10;
@@ -42,4 +42,30 @@
 .header > div {
 	display: flex;
 	justify-content: space-between;
+}
+
+.navbar ul {
+	margin: 0;
+}
+
+.navbar ul li {
+	display: inline;
+	list-style: none;
+	margin: 0px 10px;
+}
+
+.navbar a {
+	position: relative;
+	padding: 10px;
+	text-decoration: none;
+	color: var(--color-text);
+	font-weight: var(--font-weight-medium);
+	font-size: 1rem;
+	border-radius: var(--border-radius);
+}
+
+.navbar a:hover {
+	color: unset;
+	background: rgba(255, 255, 255, 0.256);
+	transition: 0.3s;
 }
