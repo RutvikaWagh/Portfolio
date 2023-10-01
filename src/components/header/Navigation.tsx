@@ -5,21 +5,26 @@
 
 import React from 'react';
 
+import ThemeSwitch from './ThemeSwitch';
+
 const Navigation: React.FC = () => {
 	return (
 		<nav className='navbar'>
 			<ul>
 				<li>
-					<a href='#'>About</a>
+					<a href='#about'>About</a>
 				</li>
 				<li>
-					<a href='#'>Experience</a>
+					<a href='#projects'>Projects</a>
 				</li>
 				<li>
-					<a href='#'>Education</a>
+					<a href='#education'>Education</a>
 				</li>
 				<li>
-					<a href='#'>Achievement & Certificates</a>
+					<a href='#certifications'>Achievement & Certificates</a>
+				</li>
+				<li>
+					<ThemeSwitch />
 				</li>
 			</ul>
 		</nav>
