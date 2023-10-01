@@ -3,9 +3,10 @@
  * @description Theme switch
  */
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Dark from 'components/icons/Dark';
+import { THEME } from 'constants/theme';
 import Light from 'components/icons/Light';
 
 const enum Mode {
@@ -16,11 +17,23 @@ const enum Mode {
 const ThemeSwitch: React.FC = () => {
 	const [mode, setMode] = useState(Mode.light);
 
+	useEffect(() => {
+		setTheme(THEME.light);
+	}, []);
+
+	const setTheme = (theme: Record<string, string>) => {
+		Object.entries(theme).forEach(([name, value]) => {
+			document.getElementById('root')?.style.setProperty(name, value);
+		});
+	};
+
 	const handleClick = () => {
 		if (mode === Mode.light) {
 			setMode(Mode.dark);
+			setTheme(THEME.dark);
 		} else {
 			setMode(Mode.light);
+			setTheme(THEME.light);
 		}
 	};
 

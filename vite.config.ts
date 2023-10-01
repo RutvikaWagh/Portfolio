@@ -9,6 +9,7 @@ export default defineConfig({
 		alias: {
 			components: `${path.resolve(__dirname, './src/components/')}`,
 			css: `${path.resolve(__dirname, './src/css/')}`,
+			constants: `${path.resolve(__dirname, './src/constants/')}`,
 		},
 	},
 });

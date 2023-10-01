@@ -30,7 +30,8 @@
 		"baseUrl": ".",
 		"paths": {
 			"components/*": ["src/components/*"],
-			"css/*": ["src/css/*"]
+			"css/*": ["src/css/*"],
+			"constants/*": ["src/constants/*"]
 		}
 	},
 	"include": ["src"],
