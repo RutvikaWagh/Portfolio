@@ -71,10 +71,4 @@
 }
 .main {
 	text-align: center;
-
-	top: 0;
-	padding: 0px 0;
-	min-width: 1%;
-	background: white;
-	z-index: 10;
 }
