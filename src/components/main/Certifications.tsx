@@ -6,7 +6,7 @@
 import React from 'react';
 
 const Certifications: React.FC = () => {
-	return <div id='certifications'>My Certifications Goes Here</div>;
+	return <section id='certifications'>My Certifications Goes Here</section>;
 };
 
 export default Certifications;
