@@ -15,7 +15,11 @@ const Projects: React.FC = () => {
 			/>
 			<div>
 				<h2 className='heading-h2'>Projects</h2>
-				<div>My Project goes here</div>
+				<ul>
+					<li>Personal Introduction card using HTML and CSS</li>
+					<li>Personal Portfolio using Javascript,HTML and CSS</li>
+					<li>Personal Portfolio using Typescript,HTML and CSS</li>
+				</ul>
 			</div>
 		</section>
 	);
