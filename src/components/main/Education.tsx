@@ -18,8 +18,8 @@ const Education: React.FC = () => {
 				<h3>Cummins college of Engineering for Women, Pune</h3>
 				<p>Bachelor of Technology (B.Tech)</p>
 				<p>Computer Science and Engineering</p>
-				<p>CGPA – 8.1 / 10.0</p>
-				<p>October 2022 – Present</p>
+				<p>CGPA – 8.26 / 10.0</p>
+				<p>November 2022 – Present</p>
 			</div>
 		</section>
 	);
