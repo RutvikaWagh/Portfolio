@@ -12,12 +12,12 @@ import Projects from './Projects';
 
 const Main: React.FC = () => {
 	return (
-		<div className='max-width-900px margin-auto'>
+		<main className='max-width-900px margin-auto'>
 			<About />
 			<Projects />
 			<Education />
 			<Certifications />
-		</div>
+		</main>
 	);
 };
 
