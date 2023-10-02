@@ -121,3 +121,15 @@
 		transform: translateX(6px);
 	}
 }
+
+.heading-h2 {
+	font-size: calc(1rem);
+	color: var(--color-secondary);
+	font-weight: var(--font-weight-medium);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.flex {
+	display: flex;
+}

@@ -22,8 +22,10 @@ const ThemeSwitch: React.FC = () => {
 	}, []);
 
 	const setTheme = (theme: Record<string, string>) => {
+		const root = document.getElementById('root');
+
 		Object.entries(theme).forEach(([name, value]) => {
-			document.getElementById('root')?.style.setProperty(name, value);
+			root?.style.setProperty(name, value);
 		});
 	};
 
