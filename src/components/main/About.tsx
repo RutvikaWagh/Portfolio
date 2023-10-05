@@ -17,13 +17,24 @@ const About: React.FC = () => {
 				<h2 className='heading-h2'>About Me</h2>
 				<h1>Hi, This is Rutvika Wagh</h1>
 				<p>
-					A Second year under graduate at Cummins College of Engineering for Women, Pune Studying Computer
-					Engineering
+					I am a <span className='branch'>Computer Engineering </span> Second year under graduate student at
+					Cummins College of Engineering for Women, Pune
 				</p>
+
 				<div>
 					<a className='resume-button' href=''>
 						view Resume
 					</a>
+				</div>
+				<div>
+					<ul>
+						<li> Java</li>
+						<li> C</li>
+						<li> Python</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ul>
 				</div>
 			</div>
 		</section>

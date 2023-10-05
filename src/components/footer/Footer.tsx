@@ -2,7 +2,7 @@
  * @author Rutvika Wagh <rutvikawagh@gmail.com>
  * @description Footer
  */
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
