@@ -40,14 +40,13 @@ option {
 body {
 	margin: 0;
 	display: flex;
+	overflow-x: hidden;
 	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
 	color: var(--color-text);
 	background: var(--color-background);
-	transition:
-		color 350ms ease 0s,
-		background 350ms ease 0s;
+	transition: color 350ms ease 0s;
 }
 
 h1 {
