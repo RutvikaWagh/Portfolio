@@ -1,6 +1,6 @@
 import React from "react";
 
-const Wave: React.FC = () => {
+const Wavey: React.FC = () => {
   return (
     <div className="wave-div">
       <svg
@@ -15,4 +15,4 @@ const Wave: React.FC = () => {
   );
 };
 
-export default Wave;
+export default Wavey;

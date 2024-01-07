@@ -1,11 +1,12 @@
 import React from "react";
 
-import Wave from "./wave";
+import Wavey from "./Wavey";
 import Header from "./Header";
+
 const HeaderWrapper: React.FC = () => {
   return (
     <header>
-      <Wave />
+      <Wavey />
       <Header />
     </header>
   );
