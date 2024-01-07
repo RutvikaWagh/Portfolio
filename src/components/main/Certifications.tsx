@@ -6,7 +6,7 @@ const Certificate: React.FC = () => {
       <div className="title">
         <h2>Certificates</h2>
       </div>
-
+       <div className="certificates">
       <div className="temp">
         <table>
           <tr>
@@ -52,6 +52,9 @@ const Certificate: React.FC = () => {
             <td>Introduction to Java</td>
           </tr>
         </table>
+       
+      
+      </div>
       </div>
     </section>
   );

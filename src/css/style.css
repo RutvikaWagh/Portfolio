@@ -186,6 +186,7 @@
 .resume-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  color: #902646;
 }
 
 .heading-h2 {
@@ -309,11 +310,7 @@ ul {
 .certificates {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 30vh;
-  gap: 50px;
-  font-size: medium;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
 }
 .sr {
   color: #902646;
@@ -343,6 +340,9 @@ td {
 }
 
 th {
-  background-color: #bfdef2; /* Background color for header cells */
+  background-color: #bfdef2; 
   font-weight: bold;
+}
+.education {
+  display: flex;
 }
