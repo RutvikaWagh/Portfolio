@@ -271,7 +271,7 @@
 }
 ul {
   list-style-type: none;
-  padding-left: 0; /* Optional: remove default indentation */
+  padding-left: 5px; 
 }
 
 .my-pic {
@@ -310,7 +310,7 @@ ul {
 .certificates {
   display: flex;
   justify-content: center;
-  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .sr {
   color: #902646;
@@ -321,7 +321,7 @@ ul {
 }
 .title-c {
   font-weight: bolder;
-  color: black;
+ color: blue;
 }
 .temp {
   display: flex;
@@ -343,6 +343,17 @@ th {
   background-color: #bfdef2; 
   font-weight: bold;
 }
+
 .education {
   display: flex;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  justify-content: space-around;
+}
+#education {
+  padding: 0px;
+
+}
+.course {
+  font-weight: bold;
 }
