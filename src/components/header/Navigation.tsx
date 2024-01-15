@@ -1,5 +1,7 @@
 import React from "react";
 
+import ThemeSwitch from "./ThemeSwitch";
+
 const Navigation: React.FC = () => {
   return (
     <nav className="navbar">
@@ -15,6 +17,9 @@ const Navigation: React.FC = () => {
         </li>
         <li>
           <a href="#certificate">Achievement & Certificates</a>
+        </li>
+        <li>
+          <ThemeSwitch/>
         </li>
       </ul>
     </nav>

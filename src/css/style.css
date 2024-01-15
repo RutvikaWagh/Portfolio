@@ -222,7 +222,7 @@
 .footer-container {
   max-width: 1140px;
   margin: auto;
-  display: grid;
+  display: inline-flex;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
 }
@@ -297,11 +297,14 @@ ul {
   background-color: #bfdef2;
   margin: 10px;
   padding: 50px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   cursor: pointer;
+  a {
+    color: black;
+  }
 }
 
 .card:hover {
@@ -357,3 +360,4 @@ th {
 .course {
   font-weight: bold;
 }
+

@@ -18,8 +18,8 @@ const Certificate: React.FC = () => {
           <tr>
             <td>1.</td>
             <td>2022</td>
-            <td>Sololearn</td>
-            <td>IIT Bombay-Certificate of Appriciation</td>
+            <td>E-Club,SJMSOS IIT-BOMBAY</td>
+            <td>Certificate of Appriciation</td>
           </tr>
           <tr>
             <td>2.</td>
@@ -50,6 +50,30 @@ const Certificate: React.FC = () => {
             <td>2023</td>
             <td>Sololearn</td>
             <td>Introduction to Java</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>2023</td>
+            <td>Dewtown</td>
+            <td>Certificate of Appriciation</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>2023</td>
+            <td>Mozilla Campus Club</td>
+            <td>Certificate of Appriciation</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>2023</td>
+            <td>Developer Student Clubs</td>
+            <td>Certificate of Completion</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>2023</td>
+            <td>Dewtown</td>
+            <td>Certificate of Participation</td>
           </tr>
         </table>
        
