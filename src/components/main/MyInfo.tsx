@@ -10,7 +10,11 @@ const MyInfo: React.FC = () => {
       <h2 className="qualities">
         Analytical, Problem-Solver, and Tech-Enthusiast.
       </h2>
-      <a className="resume-button" target="_blank" href="Resume.pdf">
+      <a
+        className="resume-button"
+        target="_blank"
+        href="https://drive.google.com/file/d/1GHqR8vFFuH1n35rgCo41xJp84GTjwZy-/view?usp=drive_link"
+      >
         view Resume
       </a>
     </div>
