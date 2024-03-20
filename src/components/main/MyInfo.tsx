@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const MyInfo: React.FC = () => {
   return (
     <div>
@@ -11,11 +10,7 @@ const MyInfo: React.FC = () => {
       <h2 className="qualities">
         Analytical, Problem-Solver, and Tech-Enthusiast.
       </h2>
-      <a
-        className="resume-button"
-        target="_blank"
-        href="https://github.com/RutvikaWagh"
-      >
+      <a className="resume-button" target="_blank" href="Resume.pdf">
         view Resume
       </a>
     </div>
