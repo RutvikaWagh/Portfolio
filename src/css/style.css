@@ -250,13 +250,18 @@
   align-items: center;
   justify-content: center;
 }
+
 .AboutMe {
   justify-content: center;
 }
+
 .icons {
   display: flex;
-  gap: 32px;
+  gap: 52px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
+
 .aboutme {
   align-items: center;
   text-align: left;
@@ -271,7 +276,7 @@
 }
 ul {
   list-style-type: none;
-  padding-left: 5px; 
+  padding-left: 5px;
 }
 
 .my-pic {
@@ -290,7 +295,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
 }
 
 .card {
@@ -324,7 +328,7 @@ ul {
 }
 .title-c {
   font-weight: bolder;
- color: blue;
+  color: blue;
 }
 .temp {
   display: flex;
@@ -343,7 +347,7 @@ td {
 }
 
 th {
-  background-color: #bfdef2; 
+  background-color: #bfdef2;
   font-weight: bold;
 }
 
@@ -353,11 +357,7 @@ th {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   justify-content: space-around;
 }
-#education {
-  padding: 0px;
 
-}
 .course {
   font-weight: bold;
 }
-

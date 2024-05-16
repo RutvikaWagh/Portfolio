@@ -7,10 +7,12 @@ const Projects: React.FC = () => {
         <h2>Projects</h2>
       </div>
       <div className="projects">
-        <div className="card"><a href="https://github.com/RutvikaWagh/Project">Python Tic Tac Toe Game</a>
-        </div>
-        <div className="card"><a href="https://github.com/RutvikaWagh/Project"> Java Cab Booking System</a></div>
-        
+        <a href="https://github.com/RutvikaWagh/Portfolio">
+          <div className="card">Personal Portfolio - ReactJs</div>
+        </a>
+        <a href="https://github.com/RutvikaWagh/Project">
+          <div className="card">Java Cab Booking System</div>
+        </a>
       </div>
     </section>
   );

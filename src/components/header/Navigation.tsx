@@ -19,8 +19,13 @@ const Navigation: React.FC = () => {
           <a href="#certificate">Achievement & Certificates</a>
         </li>
         <li>
-          <ThemeSwitch/>
+          <a href="#contactme">Contact Me</a>
         </li>
+        {false && (
+          <li>
+            <ThemeSwitch />
+          </li>
+        )}
       </ul>
     </nav>
   );

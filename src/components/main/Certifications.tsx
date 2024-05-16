@@ -4,7 +4,7 @@ const Certificate: React.FC = () => {
   return (
     <section id="certificate">
       <div className="title">
-        <h2>Certificates</h2>
+        <h2>Achievements and Certificates</h2>
       </div>
       <div className="certificates">
         <div className="temp">

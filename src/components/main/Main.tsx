@@ -1,11 +1,11 @@
 import React from "react";
 
-
 import About from "./About";
 import Certifications from "./Certifications";
+import ContactMe from "./ContactMe";
 import Education from "./Education";
-import Projects from "./Projects";
 import MyInfo from "./MyInfo";
+import Projects from "./Projects";
 
 const Main: React.FC = () => {
   return (
@@ -15,6 +15,7 @@ const Main: React.FC = () => {
       <Projects />
       <Education />
       <Certifications />
+      <ContactMe />
     </main>
   );
 };
