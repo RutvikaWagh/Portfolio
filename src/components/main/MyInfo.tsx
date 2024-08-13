@@ -13,7 +13,7 @@ const MyInfo: React.FC = () => {
       <a
         className="resume-button"
         target="_blank"
-        href="https://drive.google.com/file/d/1GHqR8vFFuH1n35rgCo41xJp84GTjwZy-/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1UKvYn2MsGY1JLXVslF8QcLcJ8ypNoDjc/view?usp=drive_link"
       >
         view Resume
       </a>
